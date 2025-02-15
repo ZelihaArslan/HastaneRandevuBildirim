@@ -32,7 +32,7 @@ public class RandedItalicize {
 
                 if (!mevcutDurum.equals(oncekiDurum)) {
                     // SMS gönder
-                    SmsSender.sendSms("+905067122649", "Yeni bir randevu açıldı!");
+                    SmsSender.sendSms("+90#####", "Yeni bir randevu açıldı!");
                     oncekiDurum = mevcutDurum;
                 }
             } catch (Exception e) {
